@@ -1,70 +1,76 @@
-# Form builder
+<p align="center">
+  <img src="your-logo.png" alt="Project Logo" width="200" />
+</p>
 
-This is a form builder application, By using this, users can create dynamic forms like google forms.
+<h1 align="center">React Form Builder</h1>
 
-## Tech/Framework used
-- React with Javascript
-- Redux and Redux-saga
-- Node with Express
+<p align="center">
+  A dynamic form builder application with drag-and-drop functionality using React, Redux, and react-dnd.
+</p>
+
+<div align="center">
+  <img src="screenshot.png" alt="Application Screenshot" width="800" />
+</div>
 
 ## Features
 
-* On Create form page, there is a **Add Question** button and textbox to fill form name/title
-* On Click of **Add Question** button, the modal popup opens with the below fields
-    - Enter question (Textbox)
-    - Select the answer type (Dropdown with options - Text, Checkbox and Radio)
-        * If answer type is either Checkbox or Radio, then the text area will appear to enter each choice in
-separate lines.
-    - Add and Cancel button
-   
-![add_question_popup](https://user-images.githubusercontent.com/22043817/155842884-30a60eee-7a1b-45fb-b7f3-2c6bed0c06f4.png)
+- ✨ Create and edit forms with ease
+- 🔄 Dynamic drag-and-drop question types
+- 🎯 Categorize, Cloze, and Comprehension question support
+- 🚀 Intuitive user interface
 
-- On click of Add Button, the question is added to the form.
-- After **saving the form**, the slug or unique URL for the form is generated
-- On **Listing Page**, there are list of all the forms created with below fields
-    - Form Name
-    - Form URL
-    - Created At (Date and Time)
-    - Total Responses
-    
-![listing_page](https://user-images.githubusercontent.com/22043817/155842912-00809eb6-2722-4f0c-9524-7ef6a16eaaae.png)
+## Getting Started
 
-- On the click of the URL, user can submit their response
+1. **Clone the repository:**
 
-![submit_response](https://user-images.githubusercontent.com/22043817/155842983-0c701ca0-11a4-4478-aadb-6d6c596f2306.png)
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
-- Form data and Responses are stored in the `forms.json` and `responses.json` files respectively, located inside `/backend/data` folder
+2. **Navigate to the project directory:**
 
-## Installation
+    ```bash
+    cd your-repository
+    ```
 
-To install dependencies for frontend and backend, follow below steps.
+3. **Install dependencies:**
 
-#### backend
-```
-cd backend
-npm install
-```
+    ```bash
+    npm install
+    ```
 
-#### frontend
-```
-cd frontend
-npm install
-```
+4. **Run the application:**
 
-## How to start
+    ```bash
+    npm start
+    ```
 
-To start the project, you need to start `backend` as well as `frontend`.
+    Open your browser and visit `http://localhost:3000` to explore the app.
 
-**Open Terminal:**
+## Project Structure
 
-In first tab (backend):
-```sh
-cd backend
-npm start
-```
+- `/src`: Contains the source code for the React application.
+  - `/components`: Reusable React components.
+  - `/FormCreationPage`: Components related to form creation.
+  - `/store`: Redux store configuration.
 
-In second tab (frontend):
-```sh
-cd frontend
-npm start
-```
+## Dependencies
+
+- React
+- Redux
+- react-dnd
+- react-dnd-html5-backend
+
+## Contributing
+
+We welcome contributions! Feel free to submit bug reports, feature requests, or even pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+Akash Chaurasiya
+</p>
